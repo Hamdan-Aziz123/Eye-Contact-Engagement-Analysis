@@ -1,0 +1,17 @@
+# Ignore Dataset
+data/
+project.rar
+
+# Ignore Model Weights (Too huge for GitHub)
+*.pth
+*.cbm
+*.joblib
+*.zip
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

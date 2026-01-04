@@ -1,0 +1,24 @@
+{
+  "test_accuracy": 0.9266666666666666,
+  "precision": 0.9400582505910166,
+  "recall": 0.9266666666666666,
+  "f1": 0.9297601649802918,
+  "confusion_matrix": [
+    [
+      98,
+      6,
+      0
+    ],
+    [
+      43,
+      288,
+      0
+    ],
+    [
+      0,
+      6,
+      309
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n   Attentive       0.70      0.94      0.80       104\n  Distracted       0.96      0.87      0.91       331\n  Disengaged       1.00      0.98      0.99       315\n\n    accuracy                           0.93       750\n   macro avg       0.89      0.93      0.90       750\nweighted avg       0.94      0.93      0.93       750\n"
+}
