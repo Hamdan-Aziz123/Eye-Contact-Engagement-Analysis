@@ -88,16 +88,3 @@ Engagement labels are defined using **head pose angles**:
 The dataset was used to train and evaluate all three models under identical conditions.
 
 ---
-
-## 🗂️ Project Structure
-
-```bash
-├── 22l_6881&22l_6586.ipynb        # Main execution notebook
-├── modelC_handcrafted_ml.py      # CatBoost training (hand-crafted features)
-├── Resnet50_train.py             # ResNet-50 training script
-├── ViT_train.py                  # Vision Transformer training script
-├── Outputs/
-│   ├── comparison_plots.png      # Model accuracy comparison
-│   ├── confusion_matrix.png      # Error visualization
-│   └── DS_PROJECT_REPORT.pdf     # Complete project report
-└── README.md
